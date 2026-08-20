@@ -1,5 +1,5 @@
 let homePointText = document.getElementById("home-point")
-homePoint = parseInt(homePointText.innerText, 10)
+let homePoint = parseInt(homePointText.innerText, 10)
 
 function homePoint1() {
     homePoint += 1
@@ -17,7 +17,7 @@ function homePoint3() {
 }
 
 let guestPointText = document.getElementById("guest-point")
-guestPoint = parseInt(guestPointText.innerText, 10)
+let guestPoint = parseInt(guestPointText.innerText, 10)
 
 function guestPoint1() {
     guestPoint += 1
