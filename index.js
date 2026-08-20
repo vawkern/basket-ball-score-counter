@@ -33,3 +33,10 @@ function guestPoint3() {
     guestPoint += 3
     guestPointText.innerText = guestPoint
 }
+
+window.homePoint1 = homePoint1
+window.homePoint2 = homePoint2
+window.homePoint3 = homePoint3
+window.guestPoint1 = guestPoint1
+window.guestPoint2 = guestPoint2
+window.guestPoint3 = guestPoint3
