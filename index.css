@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    background-color: #1B244A;
+}
+
+@font-face{
+    font-family: 'Timer-font';
+    src: url('/custom-font.ttf');
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    color: #EEEEEE;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.black-box{
+    width: 180px;
+    height: 150px;
+    background-color: black;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h1 {
+    font-size: 90px;
+    font-family: 'Timer-font';
+    color: #F94F6D;
+}
+
+h3 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #EEEEEE;
+}
+
+#home-point-1, #home-point-2, #home-point-3, #guest-point-1, #guest-point-2, #guest-point-3 {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #9AABD8;
+    border-radius: 5px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    font-family: 'Timer-font';
+    color: #9AABD8  ;
+}
+
+.points{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
